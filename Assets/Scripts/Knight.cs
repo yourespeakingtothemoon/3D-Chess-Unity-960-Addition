@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Knight : Chessman
 {
+	//public bool isKnight = true;
     public override bool[,] PossibleMoves()
     {
         bool[,] r = new bool[8, 8];
